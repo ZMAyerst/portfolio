@@ -8,6 +8,8 @@ html {
 	overflow-y: auto;
 	font-size: 62.5%;
 	margin: 0;
+}
+.bodycontent{
 	padding: 10px;
 }
 
