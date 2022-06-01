@@ -369,6 +369,9 @@ footer {
 		flex-direction: center;
 		flex-direction: column;
 	}
+	.center {
+		padding-top: 2rem;
+		}
 	/*Cat and me image*/
 	.cat {
 		display: flex;
@@ -466,7 +469,7 @@ footer {
 		}
 		/*Hero Image*/
 		.center {
-			padding-top: 5rem;
+			padding-top: 2rem;
 		}
 
 		/*About me Section*/
@@ -608,7 +611,7 @@ footer {
 		}
 		/*Hero Image*/
 		.center {
-			padding-top: 4rem;
+			padding-top: 2rem;
 		}
 		/*Cat and me image*/
 		.cat {
