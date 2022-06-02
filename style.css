@@ -1,0 +1,668 @@
+body,
+html {
+	font-family: Nunito Sans;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size: 62.5%;
+	margin: 0;
+}
+.bodycontent{
+	padding: 10px;
+}
+
+section{
+	padding-bottom: 1rem;
+}
+
+/*list items for navbar*/
+
+li {
+	list-style: none;
+	letter-spacing: 0.5rem;
+}
+
+/*link tags for navbar*/
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0px
+}
+
+/*navbar*/
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+	opacity: 0.9;
+}
+
+/*hamburger menu hidden when on desktop*/
+
+.hamburger {
+	display: none;
+}
+
+/*hamburger menu*/
+
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #000000;
+}
+
+/*items on navbar*/
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	margin-left: 5rem;
+}
+
+/*change navbar link colors*/
+
+.nav-link {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #475569;
+}
+
+/*change navbar link when hovering*/
+
+.nav-link:hover {
+	color: #5c5c5c;
+}
+
+/*navbar logo*/
+
+.nav-logo {
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #000000;
+}
+
+/*All Sections*/
+
+section {
+	box-sizing: border-box;
+}
+
+/*setting the section measurments for the about me section*/
+
+.aboutmesection {
+	padding: 3rem 4rem;
+}
+
+/*setting the about me measurements */
+
+.aboutme {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+/*setting the about me text (header) measurements */
+
+.aboutmetext {
+	display: block;
+	color: #000000;
+	padding-top: 30%;
+	padding-left: 0px;
+	font-size: 6rem;
+	margin: 10px 0px;
+	letter-spacing: 3px;
+}
+/*setting the cat & me image measurements */
+.cat {
+	width: 40rem;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20%;
+}
+
+/*Setting the measurements for the horizontal line*/
+hr {
+	width: 50%;
+	text-align: center;
+}
+
+/*setting the about me text (paragraph) measurements */
+
+.textinfo {
+	font-size: 2rem;
+}
+
+/*setting the profile picture measurements */
+
+.profilepic {
+	width: 50%;
+	height: auto;
+	border-radius: 100%;
+}
+
+
+/*Setting the Social media pictures measurments*/
+
+.socialpics {
+	width: 25rem;
+	height: auto;
+	transition: transform .7s ease-in-out;
+}
+
+.socialpics:hover {
+	transform: rotateZ(60deg);
+}
+
+/*Information paragraph measurements*/
+
+.infotext {
+	font-size: 1.8rem;
+	padding-left: 1rem;
+	padding-right: 2rem;
+	letter-spacing: 1px;
+	width: 60%;
+}
+
+/*Information section measurements*/
+
+#information {
+	display: flex;
+	justify-content: flex-start;
+	padding: 20px 12px;
+}
+
+/*Skills Images measurements*/
+
+.skill {
+	display: inline-block;
+	width: 7rem;
+	height: auto;
+}
+
+/*Section heading measurements*/
+
+.headings {
+	font-size: 3rem;
+}
+
+/*Setting the measurements for portfolio section*/
+
+
+
+/*Setting the measurements for portfolio images*/
+
+.portfolio-images {
+	display: inline-block;
+	width: 30rem;
+	height: auto;
+	transition: all .2s ease-in-out;
+}
+
+.portfolio-images:hover {
+	transform: scale(1.04);
+}
+
+/*Setting the measurements for the contact text*/
+
+.coffee {
+	text-align: center;
+	padding-top: 5rem;
+	font-size: 3rem;
+}
+
+/*Setting the measurements for the skills section*/
+.skills {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	align-content: space-between;
+	flex-direction: row;
+	margin: 5rem;
+	gap: 7rem;
+	row-gap: 4rem;
+}
+
+.skilltext {
+	font-size: 2rem;
+}
+
+/*Setting the measurements for the skill cards*/
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	padding: 2rem;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardtext {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*Setting the measurements for the info section*/
+.infosection {
+	display: flex;
+	justify-content: center;
+	flex: auto;
+	padding: 0px;
+	text-align: center;
+}
+
+/*Setting the measurements for the contact section*/
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+	gap: 2rem;
+	row-gap: 1rem;
+}
+
+/*Setting the measurements for the footer section*/
+footer {
+	background-color: #303030;
+	color: #fff;
+	height: 5rem;
+	padding: 2rem 1rem;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.icons8 {
+	color: #fff;
+	font-size: 1rem;
+}
+
+.portfolio-text{
+	text-align: center;
+	font-size: 2rem;
+}
+
+.align{
+    text-align: center;
+}
+.portfolio {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	padding: 2rem;
+}
+
+.portfolio:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.portfoliotext {
+	text-align: center;
+	font-size: 1.5rem;
+}
+.skillsused{	text-align: center;
+	font-size: 1.5rem;}
+
+
+
+
+/*480PX*/
+@media only screen and (max-width: 480px) {
+	/*Navbar*/
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 6rem;
+		flex-direction: column;
+		background-color: #fff;
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.nav-menu.active {
+		left: 0;
+	}
+	.nav-item {
+		margin: 2.5rem 0;
+	}
+	.hamburger {
+		display: block;
+		cursor: pointer;
+	}
+	/*About me Section*/
+	.aboutmetext {
+		display: block;
+		padding-top: 1rem;
+		font-size: 3rem;
+		text-align: center;
+	}
+	.textinfo {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.profilepic {
+		width: 100%;
+		height: auto;
+		padding: 10px;
+	}
+	.aboutme {
+		display: flex;
+		justify-content: center;
+		flex-direction: center;
+		flex-direction: column;
+	}
+	.center {
+		padding-top: 0;
+		}
+	/*Cat and me image*/
+	.cat {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10%;
+	}
+
+	/*Portfolio pics*/
+	.portfolio-images {
+		width: 100%;
+		height: auto;
+	}
+
+	/*Contact me text*/
+	.coffee {
+		text-align: center;
+	}
+
+	/*headers*/
+	.headings {
+		font-size: 2rem;
+	}
+
+	/*information text*/
+	.infotext {
+		font-size: 1.5rem;
+	}
+
+	/*skills images*/
+	.skill {
+		width: 6rem;
+	}
+
+	/*skill section*/
+	.skills {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 1rem;
+		row-gap: 1rem;
+		margin: 0;
+	}
+	/*skill card text*/
+	.cardtext {
+		font-size: 1.2rem;
+	}
+
+	/*social media images*/
+    .socialpics {
+		width: 15rem;
+	}
+
+	/*Contact me section*/
+	.container {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/*740PX*/
+@media only screen and (max-width: 740px) {
+	/*Navbar*/
+		.nav-menu {
+			position: fixed;
+			left: -100%;
+			top: 6rem;
+			flex-direction: column;
+			background-color: #fff;
+			width: 100%;
+			border-radius: 10px;
+			text-align: center;
+			transition: 0.3s;
+			box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+		}
+		.hamburger.active .bar:nth-child(2) {
+			opacity: 0;
+		}
+		.hamburger.active .bar:nth-child(1) {
+			transform: translateY(8px) rotate(45deg);
+		}
+		.hamburger.active .bar:nth-child(3) {
+			transform: translateY(-8px) rotate(-45deg);
+		}
+		.nav-menu.active {
+			left: 0;
+		}
+		.nav-item {
+			margin: 2.5rem 0;
+		}
+		.hamburger {
+			display: block;
+			cursor: pointer;
+		}
+		/*Hero Image*/
+		.center {
+			padding-top: 0;
+		}
+
+		/*About me Section*/
+		.aboutmetext {
+			display: block;
+			padding-top: 1rem;
+			font-size: 3rem;
+			text-align: center;
+		}
+		.aboutme {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.textinfo {
+			font-size: 1.5rem;
+			text-align: center;
+		}
+		/*Cat and me image*/
+		.cat {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 10%;
+		}
+        
+		/*Information section*/
+		.infotext {
+			font-size: 1.5rem;
+		}
+
+
+		/*Headers*/
+        .headings {
+			font-size: 2rem;
+		}
+
+		/*Skill Section*/
+		.skills {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			flex-direction: row;
+			gap: 1rem;
+			row-gap: 1rem;
+			margin: 0;
+		}
+	
+		/*Setting the measurements for portfolio images*/
+		.portfolio-images {
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+
+        /*Contact me section*/
+		.container {
+			display: flex;
+			flex-direction: row;
+		}
+
+		/*social media images*/
+		.socialpics {
+			width: 10rem;
+		}
+}
+
+/*950PX*/
+@media only screen and (max-width: 950px) {
+	/*Navbar*/
+		.navbar {
+			background-color: #fff;
+			opacity: 1;
+		}
+		.nav-menu {
+			position: fixed;
+			left: -100%;
+			top: 6rem;
+			flex-direction: column;
+			background-color: #fff;
+			width: 100%;
+			border-radius: 10px;
+			text-align: center;
+			transition: 0.3s;
+			box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+		}
+		.hamburger.active .bar:nth-child(2) {
+			opacity: 0;
+		}
+		.hamburger.active .bar:nth-child(1) {
+			transform: translateY(8px) rotate(45deg);
+		}
+		.hamburger.active .bar:nth-child(3) {
+			transform: translateY(-8px) rotate(-45deg);
+		}
+		.nav-menu.active {
+			left: 0;
+		}
+		.nav-item {
+			margin: 2.5rem 0;
+		}
+		.hamburger {
+			display: block;
+			cursor: pointer;
+		}
+        /*Headers*/
+		.headings {
+			font-size: 2rem;
+		}
+
+		/*About me section*/
+		.aboutmetext {
+			display: block;
+			padding-top: 1rem;
+			font-size: 3rem;
+			text-align: center;
+		}
+		.aboutme {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.textinfo {
+			font-size: 2rem;
+			text-align: center;
+		}
+		/*Hero Image*/
+		.center {
+			padding-top: 0;
+		}
+		/*Cat and me image*/
+		.cat {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 10%;
+		}
+	
+		/*Information Section*/
+		.infotext {
+			font-size: 1.5rem;
+		}
+
+		/*Skills Section*/
+		.skills {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			flex-direction: row;
+			gap: 1rem;
+			row-gap: 1rem;
+			margin: 0;
+		}
+
+		/*Setting the measurements for portfolio images*/
+		.portfolio-images {
+			display: inline-block;
+			width: 100%;
+			height: auto;
+		}
+		/*Contact me section*/
+		.container {
+			display: flex;
+			flex-direction: row;
+		}
+		/*social media images*/
+		.socialpics {
+			width: 12rem;
+		}
+
+		/*Footer Section*/
+		footer {
+	
+			font-size: 1rem;
+		}
+		.icons8 {
+			font-size: 1rem;
+		}
+}
